@@ -13,11 +13,7 @@ This widget will automatically trigger each year between the 21st October to the
 ```
 
 # example
-<!-- Poppy Widget -->
-<!-- Author: Warren Woodhouse (T-Codes) - warrenwoodhouse.blogspot.com/codes -->
-<!-- Documentation: https://warrenwoodhouse.github.io/poppy -->
-<iframe src="https://warrenwoodhouse.github.io/poppy/button/" allowtransparency="true" frameborder="0" width="550" height="550"></iframe>
-<p><small>Widget By: <a href="https://warrenwoodhouse.blogspot.com/codes">T-Codes</a> on <a href="https://warrenwoodhouse.blogspot.com/">Warren Woodhouse</a></small></p>
+[CLICK HERE](https://warrenwoodhouse.github.io/poppy/example) to see an example in use.
 
 # disclaimer
 I would like to thank everyone who has installed or used this widget, you’re helping veterans and their families of those who have served in the armed services here in the United Kingdom and it’s oversea territories.
