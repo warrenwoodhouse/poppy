@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Poppy Widget</title>
+  </head>
+<body>
+<!-- Poppy Widget -->
+<!-- Author: Warren Woodhouse (T-Codes) - warrenwoodhouse.blogspot.com/codes -->
+<!-- Documentation URL: warrenwoodhouse.github.io/poppy -->
+<div id="poppy-container" style="display: none; text-align: center; margin: 20px 0;">
+<p>
+  <a href="https://www.britishlegion.org.uk/get-involved/fundraise-for-us/poppy-appeal" id="poppy-btn" target="_blank" rel="noopener noreferrer"><img src="https://warrenwoodhouse.github.io/poppy/button.png"></a>
+</p>
+<p>Click on the Poppy to learn more about the Poppy Appeal!</p>
+</div>
+
+<style>
+  #poppy-btn {
+    background-color: transparent; /* Button background color */
+    color: #000000;             /* Text color */
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: Arial, sans-serif;
+  }
+  #poppy-btn:hover {
+    background-color: transparent; /* Hover background color */
+    transform: translateY(-2px);
+  }
+</style>
+
+<script>
+  (function() {
+    const today = new Date();
+    const month = today.getMonth(); // 0-indexed: 9 = October, 10 = November
+    const day = today.getDate();
+
+    // Condition: 21st October to 12th November
+    const isOctoberActive = (month === 9 && day >= 21);
+    const isNovemberActive = (month === 10 && day <= 12);
+
+    if (isOctoberActive || isNovemberActive) {
+      document.getElementById('poppy-container').style.display = 'block';
+    }
+  })();
+</script>
+</body>
+</html>
