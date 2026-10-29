@@ -4,12 +4,19 @@ This widget is free for your own websites and blogs. Share a Poppy to support th
 This widget will automatically trigger each year between the 21st October to the 12th November, in line with the Poppy Appeal of the Royal British Legion.
 
 # embed
+## embed on html websites and blogs
 ```
 <!-- Poppy Widget -->
 <!-- Author: Warren Woodhouse (T-Codes) - warrenwoodhouse.blogspot.com/codes -->
 <!-- Documentation: https://warrenwoodhouse.github.io/poppy -->
 <iframe src="https://warrenwoodhouse.github.io/poppy/button/" allowtransparency="true" frameborder="0" width="550" height="550"></iframe>
 <p><small>Widget By: <a href="https://warrenwoodhouse.blogspot.com/codes">T-Codes</a> on <a href="https://warrenwoodhouse.blogspot.com/">Warren Woodhouse</a></small></p>
+```
+
+## embed on markdown files
+```
+[![Poppy Widget](https://raw.githubusercontent.com/warrenwoodhouse/poppy/refs/heads/main/button.png)](https://www.britishlegion.org.uk/get-involved/fundraise-for-us/poppy-appeal)<sub>Click on the Poppy to learn more about the Poppy Appeal and the Royal British Legion!</sub><br>
+<sub>Widget By: [T-Codes](https://warrenwoodhouse.blogspot.com/codes) on [Warren Woodhouse](https://warrenwoodhouse.blogspot.com/)</sub>
 ```
 
 # example
